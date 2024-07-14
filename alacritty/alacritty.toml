@@ -1,0 +1,18 @@
+# Written by: Christopher Gholmieh
+# Imports:
+import = [
+	"~/.config/alacritty/colorschemes/catppuccin-mocha.toml",
+	"~/.config/alacritty/fonts.toml"
+]
+
+# Window:
+[window]
+padding = { x = 10, y = 10 }
+
+# Cursor:
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+
+# Shell:
+[shell]
+program = "/bin/fish"
